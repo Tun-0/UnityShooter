@@ -17,7 +17,7 @@ public class PlayerShoot : NetworkBehaviour {
 	{
 		if (cam == null)
 		{
-			Debug.LogError("PlayerShoot: No camera referenced!");
+			Debug.LogError("PlayerShoot: No camera!");
 			this.enabled = false;
 		}
 	}
