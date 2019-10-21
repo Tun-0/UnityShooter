@@ -20,7 +20,7 @@ public class Player : NetworkBehaviour  {
     {
         currentHealth -= _amount;
 
-        Debug.Log(transform.name + " now has " + currentHealth + " health.");
+       //Debug.Log(transform.name + " now has " + currentHealth + " health.");
     }
 
     public void SetDefaults () {
